@@ -416,12 +416,13 @@ function vitrine(){
       const b = e.target.closest("button"); if (!b) return;
       document.querySelectorAll("#filtros button").forEach(x => x.classList.toggle("on", x === b));
       document.querySelectorAll(".prod").forEach(a => a.hidden = !!b.dataset.c && a.dataset.cat !== b.dataset.c);
-      try { window.gtag && gtag("event", "madrugada_filtro", {categoria: b.dataset.c || "todas"}); } catch (_) {}
+      try { (window.dataLayer = window.dataLayer || []).push({event: "madrugada_filtro", categoria: b.dataset.c || "todas"}); } catch (_) {}
     });
   } else $("#filtros").remove();
   $("#grade").addEventListener("click", e => {
     const a = e.target.closest(".prod"); if (!a) return; const p = P[+a.dataset.i];
-    try { window.gtag && gtag("event", "select_item", {item_list_name: "Ofertas da Madrugada", items: [{item_id: p.slug, item_name: p.nome, price: p.por, index: +a.dataset.i}]}); } catch (_) {}
+    try { const dl = (window.dataLayer = window.dataLayer || []); dl.push({ecommerce: null});
+      dl.push({event: "select_item", ecommerce: {item_list_name: "Ofertas da Madrugada", items: [{item_id: p.slug, item_name: p.nome, item_brand: p.marca, item_category: p.categoria, price: p.por, discount: +(p.de - p.por).toFixed(2), index: +a.dataset.i}]}}); } catch (_) {}
     try { window.fbq && fbq("track", "ViewContent", {content_name: p.nome, value: p.por, currency: "BRL"}); } catch (_) {}
   });
   $("#benef").innerHTML = (D.beneficios || []).map((b, i) => `<li>${ICONES[i % 4]}<div>${beneficio(b)}</div></li>`).join("");
@@ -500,7 +501,7 @@ if (FASE0 !== "aberta"){
       }
       const b = $("#cpBtn"); b.textContent = ok ? "Copiado ✓" : "Segure p/ copiar"; b.classList.toggle("ok", ok);
       setTimeout(() => { b.textContent = "Copiar"; b.classList.remove("ok"); }, 2500);
-      try { window.gtag && gtag("event", "madrugada_cupom_copiado", {cupom: D.cupom}); } catch (_) {}
+      try { (window.dataLayer = window.dataLayer || []).push({event: "madrugada_cupom_copiado", cupom: D.cupom}); } catch (_) {}
     });
   }
 }

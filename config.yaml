@@ -50,7 +50,8 @@ madrugada:
   cupom_desconto: 10% OFF
   cupom_regra: Válido só para as peças desta página, até as 6h.
   utm_campaign: ofertas-da-madrugada
-  ga4_id: G-GTPTCQ8ER1
+  gtm_id: GTM-N5L7P62B          # Tag Manager do gestor de tráfego (o GA4 está dentro dele)
+  ga4_id: G-GTPTCQ8ER1          # só usado se não houver gtm_id
   meta_pixel_id: '764925574329603'
   beneficios:
   - 12x sem juros

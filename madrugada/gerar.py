@@ -329,6 +329,12 @@ def renderizar(selecao, cfg, ga4=None, pixel=None, nova=False):
     html = MODELO.read_text("utf-8")
     html = html.replace("/*__DADOS__*/null", json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     rastreio = ""
+    gtm = M.get("gtm_id")
+    if gtm:                                   # Google Tag Manager (o GA4 e as tags de mídia ficam dentro do GTM)
+        rastreio += (f'<script async src="https://www.googletagmanager.com/gtm.js?id={gtm}"></script>'
+                     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+                     "gtag('js',new Date());</script>")
+        ga4 = None                            # sem GA4 direto: evita contar visita em dobro
     if ga4:
         rastreio += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga4}"></script>'
                      f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}"
@@ -339,7 +345,11 @@ def renderizar(selecao, cfg, ga4=None, pixel=None, nova=False):
                      "n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];"
                      "s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');"
                      f"fbq('init','{pixel}');fbq('track','PageView');</script>")
-    return html.replace("<!--__RASTREIO__-->", rastreio)
+    html = html.replace("<!--__RASTREIO__-->", rastreio)
+    if gtm:
+        html = html.replace("<body>", f'<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id={gtm}" '
+                            'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>', 1)
+    return html
 
 
 def publicar_pasta(html, cfg):
@@ -407,7 +417,7 @@ def main():
         produtos = [enriquecer(p, cfg) for p in brutos if p.get("por") and p.get("de")]
         print(f"Conferidos no site: {len(produtos)} produtos (Por do feed, De da página do produto, grade do Tiny)")
         ga4, pixel = ids_rastreamento(cfg)
-        print(f"Rastreamento: GA4={ga4 or '—'} · Pixel Meta={pixel or '—'}")
+        print(f"Rastreamento: GTM={cfg['madrugada'].get('gtm_id') or '—'} · GA4 direto={'—' if cfg['madrugada'].get('gtm_id') else (ga4 or '—')} · Pixel Meta={pixel or '—'}")
         if a.modo == "atualizar" and anterior:
             # quem saiu é reposto com novos candidatos conferidos
             faltam = [p for p in anterior if p["slug"] not in {x["slug"] for x in produtos
