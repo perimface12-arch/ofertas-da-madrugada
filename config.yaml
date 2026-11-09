@@ -1,0 +1,58 @@
+# Configuração do robô Ofertas da Madrugada (Outlet360)
+# Chaves (Tiny, Windsor) ficam em Settings → Secrets do repositório, nunca aqui.
+fuso: America/Sao_Paulo
+site:
+  base: https://www.outlet360.com.br
+  ranking_url: https://www.outlet360.com.br/toda-loja?ordem=compras_desc
+  max_paginas: 40
+  feed: https://www.outlet360.com.br/feed/geral/
+  usar_ranking_do_site: true
+  categoria_abertura: https://www.outlet360.com.br/categoria/black-friday-360/
+regras:
+  desconto_minimo: 15
+  dias_sem_repetir: 7
+  top_mais_vendidos: 60
+  rank_minimo_pouca_saida: 150
+  tamanhos_minimos_pouca_saida: 4
+  tamanhos_minimos_mais_vendido: 2
+  pix_percentual: 5
+  cashback_percentual: 10
+  parcelas_max: 12
+  parcela_minima: 10
+  ignorar_kits: false
+ga4:
+  dias_curva_a: 15
+  min_vendas_curva_a: 5
+  dias_pouca_saida: 30
+  vendas_max_pouca_saida: 2
+  max_consultas_mais_vendidos: 40
+  max_consultas_pouca_saida: 80
+  candidatos_por_tipo: 6
+tiny:
+  dias_vendas: 2
+  max_consultas_mais_vendidos: 40
+  max_consultas_pouca_saida: 80
+  vendas_max_pouca_saida: 1
+madrugada:
+  dominio: madrugada.outlet360.com.br
+  qtd_total: 20
+  qtd_mais_vendidos: 10
+  desconto_minimo_mais_vendidos: 15
+  desconto_minimo_maior_desconto: 20
+  tamanhos_minimos: 3
+  max_por_marca: 8
+  max_por_categoria: 8
+  max_cores_por_modelo: 2
+  abre_hora: 20
+  fecha_hora: 20
+  cupom: MADRUGADA10
+  cupom_desconto: 10% OFF
+  cupom_regra: Válido só para as peças desta página.
+  utm_campaign: ofertas-da-madrugada
+  ga4_id: G-GTPTCQ8ER1
+  meta_pixel_id: '764925574329603'
+  beneficios:
+  - 12x sem juros
+  - +5% OFF no PIX
+  - 1ª troca grátis
+  - Sua satisfação garantida ou seu dinheiro de volta

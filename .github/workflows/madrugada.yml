@@ -1,0 +1,86 @@
+name: Ofertas da Madrugada
+
+# Seleciona os produtos, gera a página em docs/ e publica no GitHub Pages (fonte: GitHub Actions → madrugada.outlet360.com.br).
+# Repositório público: as automações do GitHub são gratuitas e sem limite de minutos.
+
+on:
+  schedule:
+    - cron: "45 22 * * *"            # 19h45 (Brasília): seleciona os 20 da noite (entram às 20h, ficam até 20h do dia seguinte)
+    - cron: "10 23 * * *"            # 20h10: checagem de preço e estoque
+    - cron: "10 0-8 * * *"           # 21h10 até 5h10: de hora em hora (horário do tráfego)
+    - cron: "10 11,14,17,20 * * *"   # 8h10, 11h10, 14h10, 17h10: checagem durante o dia
+  push:
+    branches: [main]
+    paths:
+      - "madrugada/pagina.html"
+      - "madrugada/gerar.py"
+      - "madrugada/publicar-agora.txt"
+      - "config.yaml"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "selecionar = escolhe os 20 de novo | atualizar = só preços/estoque"
+        type: choice
+        options: [atualizar, selecionar]
+        default: atualizar
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: madrugada
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    environment:
+      name: github-pages
+      url: https://madrugada.outlet360.com.br
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Modo
+        id: modo
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "${{ github.event.schedule }}" = "45 22 * * *" ]; then echo "modo=selecionar" >> $GITHUB_OUTPUT; else echo "modo=atualizar" >> $GITHUB_OUTPUT; fi
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            if [ -f dados/madrugada_selecao.json ]; then echo "modo=atualizar" >> $GITHUB_OUTPUT; else echo "modo=selecionar" >> $GITHUB_OUTPUT; fi
+          else
+            echo "modo=${{ github.event.inputs.modo }}" >> $GITHUB_OUTPUT
+          fi
+      - name: Selecionar produtos e gerar a página
+        env:
+          TINY_API_TOKEN: ${{ secrets.TINY_API_TOKEN }}
+          WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
+          SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+        run: |
+          if [ -z "$TINY_API_TOKEN" ]; then echo "::error::Falta o secret TINY_API_TOKEN"; exit 1; fi
+          python -m madrugada.gerar --modo "${{ steps.modo.outputs.modo }}"
+      - name: Guardar seleção e página (commit em docs/)
+        run: |
+          git config user.name "robo-madrugada"
+          git config user.email "robo@users.noreply.github.com"
+          git add docs dados/madrugada_selecao.json
+          if git diff --cached --quiet; then echo "Nada mudou"; exit 0; fi
+          git commit -q -m "Madrugada ${{ steps.modo.outputs.modo }} $(TZ=America/Sao_Paulo date +%F-%H%M)"
+          git pull --rebase -X theirs -q origin main && git push -q || echo "não salvou o histórico (a página publica mesmo assim)"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publicar no ar
+        uses: actions/deploy-pages@v4
+      - run: echo "### Publicado em https://madrugada.outlet360.com.br" >> $GITHUB_STEP_SUMMARY
