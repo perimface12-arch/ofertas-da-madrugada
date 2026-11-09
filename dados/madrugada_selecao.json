@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T23:32",
+ "atualizado": "2026-11-09T23:46",
  "produtos": [
   {
    "rank": 1,
@@ -26,7 +26,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000979",
-   "_lista": "v",
    "pix": 189.05,
    "parcelas": [
     12,
@@ -65,7 +64,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000220",
-   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
@@ -100,7 +98,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP000000323",
-   "_lista": "v",
    "pix": 128.25,
    "parcelas": [
     12,
@@ -139,7 +136,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000016",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -174,7 +170,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000083",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -215,7 +210,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000258",
-   "_lista": "d",
    "pix": 234.65,
    "parcelas": [
     12,
@@ -252,7 +246,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM00000022",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -291,7 +284,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000502",
-   "_lista": "d",
    "pix": 331.55,
    "parcelas": [
     12,
@@ -330,7 +322,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP000000327",
-   "_lista": "v",
    "pix": 236.55,
    "parcelas": [
     12,
@@ -369,7 +360,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000261",
-   "_lista": "d",
    "pix": 379.05,
    "parcelas": [
     12,
@@ -408,7 +398,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP0000001096",
-   "_lista": "v",
    "pix": 151.05,
    "parcelas": [
     12,
@@ -445,7 +434,6 @@
    ],
    "vendidos": 0,
    "codigo": "ACOS000000838",
-   "_lista": "d",
    "pix": 398.05,
    "parcelas": [
     12,
@@ -480,7 +468,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP00000071",
-   "_lista": "v",
    "pix": 418.0,
    "parcelas": [
     12,
@@ -517,7 +504,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000672",
-   "_lista": "d",
    "pix": 445.55,
    "parcelas": [
     12,
@@ -560,7 +546,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP00000061",
-   "_lista": "d",
    "pix": 227.05,
    "parcelas": [
     12,
@@ -597,7 +582,6 @@
    ],
    "vendidos": 0,
    "codigo": "ACOS000000743",
-   "_lista": "d",
    "pix": 350.55,
    "parcelas": [
     12,
@@ -636,7 +620,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000149",
-   "_lista": "v",
    "pix": 189.05,
    "parcelas": [
     12,
@@ -675,7 +658,6 @@
    ],
    "vendidos": 0,
    "codigo": "ACOS000000798",
-   "_lista": "d",
    "pix": 436.05,
    "parcelas": [
     12,
@@ -710,7 +692,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP000000164",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -749,7 +730,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000024",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
