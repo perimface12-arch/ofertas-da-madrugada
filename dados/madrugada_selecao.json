@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T17:50",
+ "atualizado": "2026-11-09T18:52",
  "produtos": [
   {
    "rank": 13,
@@ -419,11 +419,13 @@
    "disponiveis": [
     "G",
     "GG",
+    "P",
     "XXL"
    ],
    "tamanhos": [
     "G",
     "GG",
+    "P",
     "XXL"
    ],
    "vendidos": 0,
@@ -436,7 +438,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Polo",
    "modelo": "camisa-polo-tommy-hilfiger-raf",
-   "n_tamanhos": 3,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.365
@@ -533,14 +535,12 @@
    "disponiveis": [
     "P",
     "XXL",
-    "GG",
-    "M"
+    "GG"
    ],
    "tamanhos": [
     "P",
     "XXL",
-    "GG",
-    "M"
+    "GG"
    ],
    "vendidos": 0,
    "codigo": "TOMH000000459",
@@ -552,7 +552,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-basica",
-   "n_tamanhos": 4,
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.37
