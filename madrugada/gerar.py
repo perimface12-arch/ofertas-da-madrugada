@@ -334,7 +334,7 @@ def renderizar(selecao, cfg, ga4=None, pixel=None, nova=False):
         rastreio += (f'<script async src="https://www.googletagmanager.com/gtm.js?id={gtm}"></script>'
                      "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                      "gtag('js',new Date());</script>")
-        ga4 = None                            # sem GA4 direto: evita contar visita em dobro
+        ga4 = pixel = None                    # GA4 e Pixel da Meta ficam só no GTM: evita contar visita em dobro
     if ga4:
         rastreio += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga4}"></script>'
                      f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}"
@@ -417,7 +417,7 @@ def main():
         produtos = [enriquecer(p, cfg) for p in brutos if p.get("por") and p.get("de")]
         print(f"Conferidos no site: {len(produtos)} produtos (Por do feed, De da página do produto, grade do Tiny)")
         ga4, pixel = ids_rastreamento(cfg)
-        print(f"Rastreamento: GTM={cfg['madrugada'].get('gtm_id') or '—'} · GA4 direto={'—' if cfg['madrugada'].get('gtm_id') else (ga4 or '—')} · Pixel Meta={pixel or '—'}")
+        print(f"Rastreamento: GTM={cfg['madrugada'].get('gtm_id') or '—'} · GA4 direto={'—' if cfg['madrugada'].get('gtm_id') else (ga4 or '—')} · Pixel direto={'— (no GTM)' if cfg['madrugada'].get('gtm_id') else (pixel or '—')}")
         if a.modo == "atualizar" and anterior:
             # quem saiu é reposto com novos candidatos conferidos
             faltam = [p for p in anterior if p["slug"] not in {x["slug"] for x in produtos
