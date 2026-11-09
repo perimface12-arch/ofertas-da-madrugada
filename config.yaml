@@ -46,8 +46,9 @@ madrugada:
   abre_hora: 20
   fecha_hora: 20
   cupom: MADRUGADA10
+  cupom_fim_hora: 6
   cupom_desconto: 10% OFF
-  cupom_regra: Válido só para as peças desta página.
+  cupom_regra: Válido só para as peças desta página, até as 6h.
   utm_campaign: ofertas-da-madrugada
   ga4_id: G-GTPTCQ8ER1
   meta_pixel_id: '764925574329603'

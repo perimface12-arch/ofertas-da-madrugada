@@ -262,7 +262,7 @@ footer a{color:var(--tx-2)}
   <div class="hero-in"><div class="hero-txt">
   <div class="selo"><i></i>Só para quem está acordado</div>
   <h1><span class="l1">Ofertas da</span><span class="l2">Madrugada</span></h1>
-  <p class="sub" id="sub"><span class="sub-d">20 peças das marcas que você já usa, com <b>os melhores preços da semana</b>. As ofertas desta seleção <b>acabam às 20h</b>.</span><span class="sub-m">20 peças das marcas que você já usa.<br>As ofertas <b>acabam às 20h</b>.</span></p>
+  <p class="sub" id="sub"><span class="sub-d">20 peças das marcas que você já usa, com <b>os melhores preços da semana</b>. Seleção nova toda noite às <b>20h</b>.</span><span class="sub-m">20 peças das marcas que você já usa.<br>Seleção nova toda noite às <b>20h</b>.</span></p>
   <div class="marcas" id="marcas">Tommy Hilfiger · Ralph Lauren · Lacoste · Calvin Klein</div>
   </div><div class="hero-acao">
   <div class="contagem" id="contagem" role="timer" aria-live="off">
@@ -401,7 +401,7 @@ function vitrine(){
         <div class="de">De ${brl(p.de)}</div>
         <div class="pix">${brl(p.pix)}<small>no PIX</small></div>
         <div class="parc">ou ${brl(p.por)} em ${n}x de ${brl(v)}</div>
-        ${D.cupom ? `<div class="cupom-card">+${esc(D.cupom_desconto || "desconto")} com ${esc(D.cupom)}</div>` : ""}
+        ${D.cupom && NOITE0 ? `<div class="cupom-card">+${esc(D.cupom_desconto || "desconto")} com ${esc(D.cupom)}</div>` : ""}
         <div class="tams">${ordTam(p.disponiveis).map(t => `<span>${esc(t)}</span>`).join("")}</div>
         <div class="comprar"><span>Comprar</span></div>
       </div></a>`;
@@ -427,30 +427,36 @@ function vitrine(){
   $("#benef").innerHTML = (D.beneficios || []).map((b, i) => `<li>${ICONES[i % 4]}<div>${beneficio(b)}</div></li>`).join("");
 }
 
-/* ---------- contagem: igual para todos — a seleção entra às 20h e fica no ar até as 20h do dia seguinte ---------- */
-const ABRE = new Date(D.abre).getTime(), FECHA = new Date(D.fecha).getTime();
-const H_ABRE = D.abre_hora ?? 20, H_FECHA = D.fecha_hora ?? 20;
+/* ---------- contagem (horário de Brasília, igual para todos) ----------
+   A seleção entra às 20h e fica no ar até as 20h do dia seguinte.
+   Noite (20h–6h): o cupom vale e a contagem vai até as 6h ("o cupom acaba em").
+   Dia (6h–20h): vitrine aberta sem cupom; a contagem vai até as 20h ("nova seleção em"). */
+const H_ABRE = D.abre_hora ?? 20, H_CUPOM = D.cupom_fim_hora ?? 6, P_QTD = (D.produtos || []).length || 20;
 const TEM_PRODUTOS = (D.produtos || []).length > 0;
+const BRT = 3 * 3600e3;                                   // Brasília = UTC−3 (sem horário de verão)
+function horaBR(agora){ return new Date(agora - BRT).getUTCHours(); }
+function proxHora(agora, h){                              // próximo instante em que o relógio de Brasília marca h:00
+  const d = new Date(agora - BRT); d.setUTCHours(h, 0, 0, 0);
+  let t = d.getTime() + BRT; if (t <= agora) t += 864e5; return t;
+}
+function ehNoite(agora){ const h = horaBR(agora); return !!D.cupom && (h >= H_ABRE || h < H_CUPOM); }
 function estado(agora){
-  if (!TEM_PRODUTOS) return {fase: "depois", alvo: proximas(agora)};   // sem vitrine (falha do robô): "abre às 20h"
-  return {fase: "aberta", alvo: proximas(agora)};
+  if (!TEM_PRODUTOS) return {fase: "depois", noite: false, alvo: proxHora(agora, H_ABRE)};   // sem vitrine (falha do robô)
+  const noite = ehNoite(agora);
+  return {fase: "aberta", noite, alvo: noite ? proxHora(agora, H_CUPOM) : proxHora(agora, H_ABRE)};
 }
-function proximas(agora){                                // próximo fim de seleção (20h), mesmo se a troca atrasar uns minutos
-  let alvo = FECHA;
-  while (alvo <= agora) alvo += 864e5;
-  return alvo;
-}
-const FASE0 = estado(Date.now()).fase, ALVO0 = estado(Date.now()).alvo;
+const E0 = estado(Date.now()), FASE0 = E0.fase, NOITE0 = E0.noite, ALVO0 = E0.alvo;
 function tic(){
   const agora = Date.now(), e = estado(agora);
-  if (agora > ALVO0 + 15 * 60e3) return location.reload();   // passou das 20h: recarrega para ver a seleção nova
+  // virou a fase: às 6h some o cupom; às 20h (+10 min, tempo do robô publicar) entra a seleção nova
+  if (agora > ALVO0 + (NOITE0 ? 0 : 10 * 60e3)) return location.reload();
   let resta = Math.max(0, e.alvo - agora);
   if (previa && e.fase === "aberta" && resta <= 0) resta = 0;
   const s = Math.floor(resta / 1000), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), ss = s % 60;
   for (const [a, v] of [["#hh", h], ["#mm", m], ["#ss", ss], ["#th", h], ["#tm", m], ["#ts", ss]]){ const el = $(a); if (el) el.textContent = pad(v); }
   const final = e.fase === "aberta" && resta <= 15 * 60 * 1000;
   $("#contagem").classList.toggle("final", final); $("#tb").classList.toggle("final", final);
-  $("#avisoFinal").textContent = final ? "Faltam poucos minutos. Garanta a sua." : "";
+  $("#avisoFinal").textContent = !final ? "" : e.noite ? `Faltam poucos minutos para o ${D.cupom} acabar.` : "A seleção nova entra em poucos minutos.";
 }
 
 /* ---------- faixa de benefícios (no celular, uma por vez) ---------- */
@@ -475,7 +481,15 @@ if (FASE0 !== "aberta"){
     <a href="${mv}">Ver os mais vendidos</a></div>`;
 } else {
   vitrine();
-  if (D.cupom){
+  const desc = D.cupom_desconto ? `+${D.cupom_desconto}` : "desconto extra";
+  if (NOITE0){
+    $("#rot").textContent = "O cupom acaba em"; $("#rotulo").textContent = `O cupom ${D.cupom} acaba em`;
+    $("#sub").innerHTML = `<span class="sub-d">${P_QTD} peças das marcas que você já usa, com <b>os melhores preços da semana</b>. Cupom <b>${esc(D.cupom)}</b>: ${esc(desc)} até as ${H_CUPOM}h.</span><span class="sub-m">${P_QTD} peças das marcas que você já usa.<br><b>${esc(desc)}</b> com ${esc(D.cupom)} até as ${H_CUPOM}h.</span>`;
+  } else {
+    $("#rot").textContent = "Nova seleção em"; $("#rotulo").textContent = "Nova seleção de ofertas em";
+    $("#sub").innerHTML = `<span class="sub-d">${P_QTD} peças das marcas que você já usa, com <b>os melhores preços da semana</b>. Seleção nova toda noite às <b>${H_ABRE}h</b>.</span><span class="sub-m">${P_QTD} peças das marcas que você já usa.<br>Seleção nova toda noite às <b>${H_ABRE}h</b>.</span>`;
+  }
+  if (D.cupom && NOITE0){
     $("#cpCod").textContent = D.cupom; $("#cpDesc").textContent = D.cupom_desconto ? "+" + D.cupom_desconto + " ·" : "";
     $("#cpRegra").textContent = D.cupom_regra || ""; $("#cupom").hidden = false;
     $("#cpBtn").addEventListener("click", async () => {
