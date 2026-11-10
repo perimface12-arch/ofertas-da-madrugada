@@ -5,7 +5,7 @@ name: Ofertas da Madrugada
 
 on:
   schedule:
-    - cron: "45 22 * * *"            # 19h45 (Brasília): seleciona os 20 da noite (entram às 20h, ficam até 20h do dia seguinte)
+    - cron: "0 22 * * *"             # 19h (Brasília): seleciona os 20 da noite — folga para o atraso do GitHub; entram às 20h e ficam até 20h do dia seguinte
     - cron: "10 23 * * *"            # 20h10: checagem de preço e estoque
     - cron: "10 0-8 * * *"           # 21h10 até 5h10: de hora em hora (horário do tráfego)
     - cron: "10 11,14,17,20 * * *"   # 8h10, 11h10, 14h10, 17h10: checagem durante o dia
@@ -54,7 +54,7 @@ jobs:
         id: modo
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            if [ "${{ github.event.schedule }}" = "45 22 * * *" ]; then echo "modo=selecionar" >> $GITHUB_OUTPUT; else echo "modo=atualizar" >> $GITHUB_OUTPUT; fi
+            if [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then echo "modo=selecionar" >> $GITHUB_OUTPUT; else echo "modo=atualizar" >> $GITHUB_OUTPUT; fi
           elif [ "${{ github.event_name }}" = "push" ]; then
             if [ -f dados/madrugada_selecao.json ]; then echo "modo=atualizar" >> $GITHUB_OUTPUT; else echo "modo=selecionar" >> $GITHUB_OUTPUT; fi
           else
