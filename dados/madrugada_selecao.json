@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T12:09",
+ "atualizado": "2026-11-10T15:03",
  "produtos": [
   {
    "rank": 1,
@@ -78,40 +78,6 @@
    "apelo": 1.445
   },
   {
-   "rank": 5,
-   "slug": "camiseta-basica-rl-azul-marinho",
-   "link": "https://www.outlet360.com.br/produto/camiseta-basica-rl-azul-marinho/",
-   "nome": "Camiseta Básica RL Azul Marinho",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ccbbfavb/camiseta-basica-rl-azul-marinho-1.jpg",
-   "de": 240.0,
-   "por": 135.0,
-   "desconto": 44,
-   "disponiveis": [
-    "G",
-    "GG",
-    "M"
-   ],
-   "tamanhos": [
-    "G",
-    "GG",
-    "M"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP000000323",
-   "pix": 128.25,
-   "parcelas": [
-    12,
-    11.25
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Camiseta",
-   "modelo": "camiseta-basica-rl",
-   "n_tamanhos": 3,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.41
-  },
-  {
    "rank": 6,
    "slug": "camiseta-tommy-hilfiger-basica-preta",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-basica-preta/",
@@ -124,14 +90,12 @@
     "GG",
     "P",
     "XXL",
-    "M",
     "G"
    ],
    "tamanhos": [
     "GG",
     "P",
     "XXL",
-    "M",
     "G"
    ],
    "vendidos": 0,
@@ -144,7 +108,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-basica",
-   "n_tamanhos": 5,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.405
@@ -742,10 +706,43 @@
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.285
+  },
+  {
+   "rank": 16,
+   "slug": "camiseta-rl-polo-bear-fleece-preta",
+   "link": "https://www.outlet360.com.br/produto/camiseta-rl-polo-bear-fleece-preta/",
+   "nome": "Camiseta RL Polo Bear Fleece Preta",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/xzfdmrih/98c0be66-7794-4898-8345-a4899b7a4cbc.jpeg",
+   "de": 452.0,
+   "por": 149.0,
+   "desconto": 67,
+   "disponiveis": [
+    "M",
+    "G",
+    "GG"
+   ],
+   "tamanhos": [
+    "M",
+    "G",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP0000001255",
+   "pix": 141.55,
+   "parcelas": [
+    12,
+    12.42
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Camiseta",
+   "modelo": "camiseta-rl-polo-bear-fleece",
+   "n_tamanhos": 3,
+   "kit": false,
+   "origem": "mais_vendido",
+   "apelo": 1.59
   }
  ],
  "reservas": [
-  "camiseta-rl-polo-bear-fleece-preta",
   "camisa-polo-tommy-hilfiger-branca",
   "camisa-polo-tommy-hilfiger-vermelha",
   "camisa-polo-tommy-hilfiger-azul-raf",
