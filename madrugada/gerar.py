@@ -360,6 +360,17 @@ def publicar_pasta(html, cfg):
         (SAIDA / "CNAME").write_text(dominio + "\n", "utf-8")
     (SAIDA / ".nojekyll").write_text("", "utf-8")
     (SAIDA / "robots.txt").write_text("User-agent: *\nDisallow: /\n", "utf-8")
+    # links curtos que marcam o canal sozinhos (ex.: /vip → Grupo VIP no GA4)
+    for nome, utm in (cfg["madrugada"].get("links_curtos") or {}).items():
+        destino = "/?" + "&".join(f"{k}={v}" for k, v in utm.items())
+        pasta = SAIDA / nome
+        pasta.mkdir(exist_ok=True)
+        (pasta / "index.html").write_text(
+            '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0;url={destino}"><title>Ofertas da Madrugada</title>'
+            "<script>var q=new URLSearchParams(location.search),d=new URL(" + repr(destino) + ",location.origin);"
+            "q.forEach(function(v,k){d.searchParams.set(k,v)});location.replace(d.pathname+d.search);</script>"
+            "</head><body style=\"background:#000\"></body></html>", "utf-8")
 
 
 # ------------------------------------------------------------------ demo

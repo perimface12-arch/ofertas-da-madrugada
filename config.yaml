@@ -45,6 +45,11 @@ madrugada:
   max_cores_por_modelo: 2
   abre_hora: 20
   fecha_hora: 20
+  links_curtos:                 # madrugada.outlet360.com.br/<nome> abre a página já marcada com o canal
+    vip:                        # Grupo VIP → no GA4, grupo de canais com a regra "Origem da sessão = grupo_vip"
+      utm_source: grupo_vip
+      utm_medium: whatsapp
+      utm_campaign: ofertas_madrugada
   cupom: MADRUGADA10
   cupom_fim_hora: 6
   cupom_desconto: 10% OFF
