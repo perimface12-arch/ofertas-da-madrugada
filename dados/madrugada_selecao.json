@@ -1,6 +1,41 @@
 {
- "atualizado": "2026-11-10T20:54",
+ "atualizado": "2026-11-10T22:51",
  "produtos": [
+  {
+   "rank": 16,
+   "slug": "camiseta-rl-polo-bear-fleece-preta",
+   "link": "https://www.outlet360.com.br/produto/camiseta-rl-polo-bear-fleece-preta/",
+   "nome": "Camiseta RL Polo Bear Fleece Preta",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/xzfdmrih/98c0be66-7794-4898-8345-a4899b7a4cbc.jpeg",
+   "de": 452.0,
+   "por": 149.0,
+   "desconto": 67,
+   "disponiveis": [
+    "M",
+    "G",
+    "GG"
+   ],
+   "tamanhos": [
+    "M",
+    "G",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP0000001255",
+   "_lista": "v",
+   "pix": 141.55,
+   "parcelas": [
+    12,
+    12.42
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Camiseta",
+   "modelo": "camiseta-rl-polo-bear-fleece",
+   "n_tamanhos": 3,
+   "kit": false,
+   "origem": "mais_vendido",
+   "apelo": 1.59
+  },
   {
    "rank": 1,
    "slug": "camisa-polo-tommy-hilfiger-azul-escuro",
@@ -26,6 +61,7 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000979",
+   "_lista": "v",
    "pix": 189.05,
    "parcelas": [
     12,
@@ -64,6 +100,7 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000220",
+   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
@@ -75,7 +112,44 @@
    "n_tamanhos": 5,
    "kit": false,
    "origem": "mais_vendido",
-   "apelo": 1.445
+   "apelo": 1.45
+  },
+  {
+   "rank": 19,
+   "slug": "camisa-polo-tommy-hilfiger-azul-raf",
+   "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-azul-raf/",
+   "nome": "Camisa Polo Tommy Hilfiger Azul Raf",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/dnmntyed/camisa-polo-tommy-hilfiger-azul-raf-1.jpg",
+   "de": 418.0,
+   "por": 199.0,
+   "desconto": 52,
+   "disponiveis": [
+    "G",
+    "GG",
+    "P",
+    "XXL"
+   ],
+   "tamanhos": [
+    "G",
+    "GG",
+    "P",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "TOMH000000374",
+   "_lista": "v",
+   "pix": 189.05,
+   "parcelas": [
+    12,
+    16.58
+   ],
+   "marca": "Tommy Hilfiger",
+   "categoria": "Polo",
+   "modelo": "camisa-polo-tommy-hilfiger-raf",
+   "n_tamanhos": 4,
+   "kit": false,
+   "origem": "mais_vendido",
+   "apelo": 1.425
   },
   {
    "rank": 6,
@@ -100,6 +174,7 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000016",
+   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -111,69 +186,112 @@
    "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
+   "apelo": 1.4
+  },
+  {
+   "rank": 37,
+   "slug": "camisa-tommy-hilfiger-oxford-regular-azul-mescla",
+   "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-oxford-regular-azul-mescla/",
+   "nome": "Camisa Tommy Hilfiger Oxford Regular Azul Mescla",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/lyuaclwj/7c938413-0ae4-49ca-93b6-bf8c395fff49.jpeg",
+   "de": 675.0,
+   "por": 279.0,
+   "desconto": 59,
+   "disponiveis": [
+    "G",
+    "GG",
+    "M",
+    "P",
+    "XXL"
+   ],
+   "tamanhos": [
+    "G",
+    "GG",
+    "M",
+    "P",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "TOMH000000373",
+   "_lista": "v",
+   "pix": 265.05,
+   "parcelas": [
+    12,
+    23.25
+   ],
+   "marca": "Tommy Hilfiger",
+   "categoria": "Camisa",
+   "modelo": "camisa-tommy-hilfiger-oxford-regular",
+   "n_tamanhos": 5,
+   "kit": false,
+   "origem": "maior_desconto",
    "apelo": 1.405
   },
   {
-   "rank": 22,
-   "slug": "camiseta-tommy-hilfiger-1985-verde-oliva",
-   "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-verde-oliva/",
-   "nome": "Camiseta Tommy Hilfiger 1985 Verde Oliva",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/vcbtythk/2d297f7a-1ffb-4575-8769-52bfdfdc1021.jpeg",
-   "de": 273.0,
-   "por": 149.0,
-   "desconto": 45,
+   "rank": 9,
+   "slug": "camiseta-lacoste-algodao-pima-preta",
+   "link": "https://www.outlet360.com.br/produto/camiseta-lacoste-algodao-pima-preta/",
+   "nome": "Camiseta Lacoste Pima Preta",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/rpqcxhvw/camiseta-lacoste-pima-preta-1.jpg",
+   "de": 399.0,
+   "por": 229.0,
+   "desconto": 43,
    "disponiveis": [
-    "P",
+    "G",
+    "GG",
     "M",
-    "G"
+    "P"
    ],
    "tamanhos": [
-    "P",
+    "G",
+    "GG",
     "M",
-    "G"
+    "P"
    ],
    "vendidos": 0,
-   "codigo": "TOMH00000083",
-   "pix": 141.55,
+   "codigo": "LAC00000029",
+   "_lista": "v",
+   "pix": 217.55,
    "parcelas": [
     12,
-    12.42
+    19.08
    ],
-   "marca": "Tommy Hilfiger",
+   "marca": "Lacoste",
    "categoria": "Camiseta",
-   "modelo": "camiseta-tommy-hilfiger-1985",
-   "n_tamanhos": 3,
+   "modelo": "camiseta-lacoste-pima",
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
-   "apelo": 1.34
+   "apelo": 1.385
   },
   {
-   "rank": 79,
-   "slug": "calca-sarja-tommy-hilfiger-areia",
-   "link": "https://www.outlet360.com.br/produto/calca-sarja-tommy-hilfiger-areia/",
-   "nome": "Calça Sarja Tommy Hilfiger Areia",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/puslseni/44ce482a-6428-418b-bb22-cc21ea0bee76.jpeg",
+   "rank": 69,
+   "slug": "calca-sarja-tommy-hilfiger-marinho",
+   "link": "https://www.outlet360.com.br/produto/calca-sarja-tommy-hilfiger-marinho/",
+   "nome": "Calça Sarja Tommy Hilfiger Marinho",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/kkfsdskn/4fa80479-2d73-4bf8-8e61-c16cfe6ced48.jpeg",
    "de": 520.0,
    "por": 247.0,
    "desconto": 53,
    "disponiveis": [
     "48",
-    "42",
     "46",
-    "44",
     "40",
+    "44",
+    "42",
     "38"
    ],
    "tamanhos": [
     "48",
-    "42",
     "46",
-    "44",
     "40",
+    "44",
+    "42",
     "38"
    ],
    "vendidos": 0,
-   "codigo": "TOMH000000258",
+   "codigo": "TOMH000000261",
+   "_lista": "d",
    "pix": 234.65,
    "parcelas": [
     12,
@@ -185,157 +303,42 @@
    "n_tamanhos": 6,
    "kit": false,
    "origem": "maior_desconto",
-   "apelo": 1.11
+   "apelo": 1.185
   },
   {
-   "rank": 43,
-   "slug": "camiseta-aramis-basica-preta",
-   "link": "https://www.outlet360.com.br/produto/camiseta-aramis-basica-preta/",
-   "nome": "Camiseta Aramis Básica Preta",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ujqtzoxf/camiseta-aramis-basica-preta-1.jpg",
-   "de": 189.0,
-   "por": 149.0,
-   "desconto": 21,
+   "rank": 20,
+   "slug": "camisa-polo-rl-verde-sage",
+   "link": "https://www.outlet360.com.br/produto/camisa-polo-rl-verde-sage/",
+   "nome": "Camisa Polo RL Verde Sage",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ddkyfuvg/camisa-polo-ralph-lauren-verde-sage-1.jpg",
+   "de": 300.0,
+   "por": 179.0,
+   "desconto": 40,
    "disponiveis": [
-    "G",
-    "GG",
-    "M",
-    "P"
+    "XXL",
+    "P",
+    "M"
    ],
    "tamanhos": [
-    "G",
-    "GG",
-    "M",
-    "P"
+    "XXL",
+    "P",
+    "M"
    ],
    "vendidos": 0,
-   "codigo": "ARAM00000022",
-   "pix": 141.55,
+   "codigo": "RALP00000055",
+   "_lista": "v",
+   "pix": 170.05,
    "parcelas": [
     12,
-    12.42
-   ],
-   "marca": "Aramis",
-   "categoria": "Camiseta",
-   "modelo": "camiseta-aramis-basica",
-   "n_tamanhos": 4,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.01
-  },
-  {
-   "rank": 9999,
-   "slug": "camisa-aramis-damero-xadrez-verde",
-   "link": "https://www.outlet360.com.br/produto/camisa-aramis-damero-xadrez-verde/",
-   "nome": "Camisa Aramis Damero Xadrez Verde",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/viacbbge/8ade7bb8-eaa0-440d-a648-d7e4e51a53f3.jpeg",
-   "de": 465.0,
-   "por": 349.0,
-   "desconto": 25,
-   "disponiveis": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "vendidos": 0,
-   "codigo": "ARAM000000502",
-   "pix": 331.55,
-   "parcelas": [
-    12,
-    29.08
-   ],
-   "marca": "Aramis",
-   "categoria": "Camisa",
-   "modelo": "camisa-aramis-damero-xadrez",
-   "n_tamanhos": 5,
-   "kit": false,
-   "origem": "maior_desconto",
-   "apelo": 0.25
-  },
-  {
-   "rank": 44,
-   "slug": "camisa-rl-classic-custom-fit-preta",
-   "link": "https://www.outlet360.com.br/produto/camisa-rl-classic-custom-fit-preta/",
-   "nome": "Camisa RL Classic Custom Fit Preta",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/qcywgkwr/camisa-rl-classic-custom-fit-preta-1.jpg",
-   "de": 400.0,
-   "por": 249.0,
-   "desconto": 38,
-   "disponiveis": [
-    "G",
-    "GG",
-    "M",
-    "P",
-    "XXL"
-   ],
-   "tamanhos": [
-    "G",
-    "GG",
-    "M",
-    "P",
-    "XXL"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP000000327",
-   "pix": 236.55,
-   "parcelas": [
-    12,
-    20.75
+    14.92
    ],
    "marca": "Ralph Lauren",
-   "categoria": "Camisa",
-   "modelo": "camisa-rl-classic-custom-fit",
-   "n_tamanhos": 5,
+   "categoria": "Polo",
+   "modelo": "camisa-polo-rl-sage",
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
-   "apelo": 1.175
-  },
-  {
-   "rank": 9999,
-   "slug": "camisa-aramis-gola-padre-flame-khaki",
-   "link": "https://www.outlet360.com.br/produto/camisa-aramis-gola-padre-flame-khaki/",
-   "nome": "Camisa Aramis Gola Padre Flamê Khaki",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ywltcmqp/camisa-aramis-gola-padre-flame-khaki-1.jpg",
-   "de": 526.0,
-   "por": 399.0,
-   "desconto": 24,
-   "disponiveis": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "vendidos": 0,
-   "codigo": "ARAM000000261",
-   "pix": 379.05,
-   "parcelas": [
-    12,
-    33.25
-   ],
-   "marca": "Aramis",
-   "categoria": "Camisa",
-   "modelo": "camisa-aramis-gola-padre-flame",
-   "n_tamanhos": 5,
-   "kit": false,
-   "origem": "maior_desconto",
-   "apelo": 0.24
+   "apelo": 1.3
   },
   {
    "rank": 49,
@@ -362,6 +365,7 @@
    ],
    "vendidos": 0,
    "codigo": "RALP0000001096",
+   "_lista": "v",
    "pix": 151.05,
    "parcelas": [
     12,
@@ -372,8 +376,351 @@
    "modelo": "camiseta-rl-pima-colored",
    "n_tamanhos": 5,
    "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 1.255
+  },
+  {
+   "rank": 21,
+   "slug": "camiseta-tommy-hilfiger-1985-cinza",
+   "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-cinza/",
+   "nome": "Camiseta Tommy Hilfiger 1985 Cinza",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/psuzkeyx/b6f1d188-da8c-4408-964e-f823164b40ea.jpeg",
+   "de": 273.0,
+   "por": 149.0,
+   "desconto": 45,
+   "disponiveis": [
+    "XXL",
+    "GG",
+    "G",
+    "P",
+    "M"
+   ],
+   "tamanhos": [
+    "XXL",
+    "GG",
+    "G",
+    "P",
+    "M"
+   ],
+   "vendidos": 0,
+   "codigo": "TOMH00000086",
+   "_lista": "v",
+   "pix": 141.55,
+   "parcelas": [
+    12,
+    12.42
+   ],
+   "marca": "Tommy Hilfiger",
+   "categoria": "Camiseta",
+   "modelo": "camiseta-tommy-hilfiger-1985",
+   "n_tamanhos": 5,
+   "kit": false,
    "origem": "mais_vendido",
-   "apelo": 1.265
+   "apelo": 1.345
+  },
+  {
+   "rank": 35,
+   "slug": "camiseta-basica-rl-branca",
+   "link": "https://www.outlet360.com.br/produto/camiseta-basica-rl-branca/",
+   "nome": "Camiseta Básica RL Branca",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/sgnihueg/e23586e9-9c9c-4e83-aae3-75c5778319f0.jpeg",
+   "de": 240.0,
+   "por": 149.0,
+   "desconto": 38,
+   "disponiveis": [
+    "XXXL",
+    "XXL",
+    "GG"
+   ],
+   "tamanhos": [
+    "XXXL",
+    "XXL",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP000000164",
+   "_lista": "v",
+   "pix": 141.55,
+   "parcelas": [
+    12,
+    12.42
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Camiseta",
+   "modelo": "camiseta-basica-rl",
+   "n_tamanhos": 3,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 1.205
+  },
+  {
+   "rank": 31,
+   "slug": "calca-sarja-rl-azul-marinho",
+   "link": "https://www.outlet360.com.br/produto/calca-sarja-rl-azul-marinho/",
+   "nome": "Calça Sarja Slim RL Azul Marinho",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ifpbemwj/calca-sarja-rl-azul-marinho-1.jpg",
+   "de": 400.0,
+   "por": 239.0,
+   "desconto": 40,
+   "disponiveis": [
+    "38",
+    "50",
+    "40",
+    "42",
+    "48",
+    "44",
+    "46"
+   ],
+   "tamanhos": [
+    "38",
+    "50",
+    "40",
+    "42",
+    "48",
+    "44",
+    "46"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP00000059",
+   "_lista": "v",
+   "pix": 227.05,
+   "parcelas": [
+    12,
+    19.92
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Calça",
+   "modelo": "calca-sarja-slim-rl",
+   "n_tamanhos": 7,
+   "kit": false,
+   "origem": "mais_vendido",
+   "apelo": 1.245
+  },
+  {
+   "rank": 44,
+   "slug": "camisa-rl-classic-custom-fit-preta",
+   "link": "https://www.outlet360.com.br/produto/camisa-rl-classic-custom-fit-preta/",
+   "nome": "Camisa RL Classic Custom Fit Preta",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/qcywgkwr/camisa-rl-classic-custom-fit-preta-1.jpg",
+   "de": 400.0,
+   "por": 249.0,
+   "desconto": 38,
+   "disponiveis": [
+    "G",
+    "GG",
+    "M",
+    "P",
+    "XXL"
+   ],
+   "tamanhos": [
+    "G",
+    "GG",
+    "M",
+    "P",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP000000327",
+   "_lista": "v",
+   "pix": 236.55,
+   "parcelas": [
+    12,
+    20.75
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Camisa",
+   "modelo": "camisa-rl-classic-custom-fit",
+   "n_tamanhos": 5,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 1.16
+  },
+  {
+   "rank": 34,
+   "slug": "camisa-polo-rl-colored-verde-oliva",
+   "link": "https://www.outlet360.com.br/produto/camisa-polo-rl-colored-verde-oliva/",
+   "nome": "Camisa Polo RL Colored Verde Oliva",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/wsvnvhox/d736abee-aa64-471c-ad5b-260e2d825454.jpeg",
+   "de": 300.0,
+   "por": 169.0,
+   "desconto": 44,
+   "disponiveis": [
+    "G",
+    "M",
+    "P",
+    "GG"
+   ],
+   "tamanhos": [
+    "G",
+    "M",
+    "P",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP000000280",
+   "_lista": "v",
+   "pix": 160.55,
+   "parcelas": [
+    12,
+    14.08
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Polo",
+   "modelo": "camisa-polo-rl-colored",
+   "n_tamanhos": 4,
+   "kit": false,
+   "origem": "mais_vendido",
+   "apelo": 1.27
+  },
+  {
+   "rank": 48,
+   "slug": "camiseta-aramis-basica-marrom",
+   "link": "https://www.outlet360.com.br/produto/camiseta-aramis-basica-marrom/",
+   "nome": "Camiseta Aramis Básica Marrom",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/wxeqkmpy/camiseta-aramis-basica-marrom-1.jpg",
+   "de": 189.0,
+   "por": 119.0,
+   "desconto": 37,
+   "disponiveis": [
+    "G",
+    "GG",
+    "M",
+    "P"
+   ],
+   "tamanhos": [
+    "G",
+    "GG",
+    "M",
+    "P"
+   ],
+   "vendidos": 0,
+   "codigo": "ARAM0000001",
+   "_lista": "v",
+   "pix": 113.05,
+   "parcelas": [
+    11,
+    10.82
+   ],
+   "marca": "Aramis",
+   "categoria": "Camiseta",
+   "modelo": "camiseta-aramis-basica",
+   "n_tamanhos": 4,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 1.13
+  },
+  {
+   "rank": 52,
+   "slug": "camisa-rl-linho-custom-fit-branca",
+   "link": "https://www.outlet360.com.br/produto/camisa-rl-linho-custom-fit-branca/",
+   "nome": "Camisa RL Linho Custom Fit Branca",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/upzypgkh/07aac87b-33cc-4947-95da-1b8de0281d39.jpeg",
+   "de": 690.0,
+   "por": 440.0,
+   "desconto": 36,
+   "disponiveis": [
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "tamanhos": [
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "RALP00000071",
+   "_lista": "v",
+   "pix": 418.0,
+   "parcelas": [
+    12,
+    36.67
+   ],
+   "marca": "Ralph Lauren",
+   "categoria": "Camisa",
+   "modelo": "camisa-rl-linho-custom-fit",
+   "n_tamanhos": 3,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 1.1
+  },
+  {
+   "rank": 9999,
+   "slug": "camisa-aramis-damero-xadrez-verde",
+   "link": "https://www.outlet360.com.br/produto/camisa-aramis-damero-xadrez-verde/",
+   "nome": "Camisa Aramis Damero Xadrez Verde",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/viacbbge/8ade7bb8-eaa0-440d-a648-d7e4e51a53f3.jpeg",
+   "de": 465.0,
+   "por": 349.0,
+   "desconto": 25,
+   "disponiveis": [
+    "P",
+    "M",
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "ARAM000000502",
+   "_lista": "d",
+   "pix": 331.55,
+   "parcelas": [
+    12,
+    29.08
+   ],
+   "marca": "Aramis",
+   "categoria": "Camisa",
+   "modelo": "camisa-aramis-damero-xadrez",
+   "n_tamanhos": 5,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 0.25
+  },
+  {
+   "rank": 9999,
+   "slug": "camisa-aramis-gola-padre-flame-khaki",
+   "link": "https://www.outlet360.com.br/produto/camisa-aramis-gola-padre-flame-khaki/",
+   "nome": "Camisa Aramis Gola Padre Flamê Khaki",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ywltcmqp/camisa-aramis-gola-padre-flame-khaki-1.jpg",
+   "de": 526.0,
+   "por": 399.0,
+   "desconto": 24,
+   "disponiveis": [
+    "P",
+    "M",
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG",
+    "XXL"
+   ],
+   "vendidos": 0,
+   "codigo": "ARAM000000261",
+   "_lista": "d",
+   "pix": 379.05,
+   "parcelas": [
+    12,
+    33.25
+   ],
+   "marca": "Aramis",
+   "categoria": "Camisa",
+   "modelo": "camisa-aramis-gola-padre-flame",
+   "n_tamanhos": 5,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 0.24
   },
   {
    "rank": 9999,
@@ -398,6 +745,7 @@
    ],
    "vendidos": 0,
    "codigo": "ACOS000000838",
+   "_lista": "d",
    "pix": 398.05,
    "parcelas": [
     12,
@@ -410,352 +758,23 @@
    "kit": false,
    "origem": "maior_desconto",
    "apelo": 0.24
-  },
-  {
-   "rank": 52,
-   "slug": "camisa-rl-linho-custom-fit-branca",
-   "link": "https://www.outlet360.com.br/produto/camisa-rl-linho-custom-fit-branca/",
-   "nome": "Camisa RL Linho Custom Fit Branca",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/upzypgkh/07aac87b-33cc-4947-95da-1b8de0281d39.jpeg",
-   "de": 690.0,
-   "por": 440.0,
-   "desconto": 36,
-   "disponiveis": [
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "tamanhos": [
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP00000071",
-   "pix": 418.0,
-   "parcelas": [
-    12,
-    36.67
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Camisa",
-   "modelo": "camisa-rl-linho-custom-fit",
-   "n_tamanhos": 3,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.115
-  },
-  {
-   "rank": 9999,
-   "slug": "camisa-aramis-linho-manga-curta-branco",
-   "link": "https://www.outlet360.com.br/produto/camisa-aramis-linho-manga-curta-branco/",
-   "nome": "Camisa Aramis Linho Manga Curta Branco",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/fizgvbnx/39672ab1-8b76-4f47-a8f7-257559440bf0.jpeg",
-   "de": 612.0,
-   "por": 469.0,
-   "desconto": 23,
-   "disponiveis": [
-    "P",
-    "M",
-    "G",
-    "GG"
-   ],
-   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "ARAM000000672",
-   "pix": 445.55,
-   "parcelas": [
-    12,
-    39.08
-   ],
-   "marca": "Aramis",
-   "categoria": "Camisa",
-   "modelo": "camisa-aramis-linho-manga-curta",
-   "n_tamanhos": 4,
-   "kit": false,
-   "origem": "maior_desconto",
-   "apelo": 0.23
-  },
-  {
-   "rank": 51,
-   "slug": "calca-sarja-rl-preta",
-   "link": "https://www.outlet360.com.br/produto/calca-sarja-rl-preta/",
-   "nome": "Calça Sarja Slim RL Preta",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/twzoioof/calca-sarja-rl-preta-1.jpg",
-   "de": 400.0,
-   "por": 239.0,
-   "desconto": 40,
-   "disponiveis": [
-    "50",
-    "38",
-    "40",
-    "42",
-    "44",
-    "46",
-    "48"
-   ],
-   "tamanhos": [
-    "50",
-    "38",
-    "40",
-    "42",
-    "44",
-    "46",
-    "48"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP00000061",
-   "pix": 227.05,
-   "parcelas": [
-    12,
-    19.92
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Calça",
-   "modelo": "calca-sarja-slim-rl",
-   "n_tamanhos": 7,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.14
-  },
-  {
-   "rank": 9999,
-   "slug": "camisa-acostamento-tech-marinho",
-   "link": "https://www.outlet360.com.br/produto/camisa-acostamento-tech-marinho/",
-   "nome": "Camisa Acostamento Tech Marinho",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ohmaekjd/3f3abecf-6809-46f7-8ea7-c783a212492e.jpeg",
-   "de": 480.0,
-   "por": 369.0,
-   "desconto": 23,
-   "disponiveis": [
-    "P",
-    "M",
-    "G",
-    "GG"
-   ],
-   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "ACOS000000743",
-   "pix": 350.55,
-   "parcelas": [
-    12,
-    30.75
-   ],
-   "marca": "Acostamento",
-   "categoria": "Camisa",
-   "modelo": "camisa-acostamento-tech",
-   "n_tamanhos": 4,
-   "kit": false,
-   "origem": "maior_desconto",
-   "apelo": 0.23
-  },
-  {
-   "rank": 33,
-   "slug": "camisa-polo-tommy-hilfiger-verde",
-   "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-verde/",
-   "nome": "Camisa Polo Tommy Hilfiger Verde",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/yxwgppxx/camisa-polo-tommy-hilfiger-verde-1.jpg",
-   "de": 418.0,
-   "por": 199.0,
-   "desconto": 52,
-   "disponiveis": [
-    "XXL",
-    "GG",
-    "G",
-    "M",
-    "P"
-   ],
-   "tamanhos": [
-    "XXL",
-    "GG",
-    "G",
-    "M",
-    "P"
-   ],
-   "vendidos": 0,
-   "codigo": "TOMH000000149",
-   "pix": 189.05,
-   "parcelas": [
-    12,
-    16.58
-   ],
-   "marca": "Tommy Hilfiger",
-   "categoria": "Polo",
-   "modelo": "camisa-polo-tommy-hilfiger",
-   "n_tamanhos": 5,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.385
-  },
-  {
-   "rank": 9999,
-   "slug": "camisa-acostamento-micro-xadrez-verde-escuro",
-   "link": "https://www.outlet360.com.br/produto/camisa-acostamento-micro-xadrez-verde-escuro/",
-   "nome": "Camisa Acostamento Micro-xadrez Verde Escuro",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/qopuoayk/26fba3cb-a027-4a6b-af67-dc4aef39035c.jpeg",
-   "de": 599.0,
-   "por": 459.0,
-   "desconto": 23,
-   "disponiveis": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "tamanhos": [
-    "P",
-    "M",
-    "G",
-    "GG",
-    "XXL"
-   ],
-   "vendidos": 0,
-   "codigo": "ACOS000000798",
-   "pix": 436.05,
-   "parcelas": [
-    12,
-    38.25
-   ],
-   "marca": "Acostamento",
-   "categoria": "Camisa",
-   "modelo": "camisa-acostamento-micro-xadrez",
-   "n_tamanhos": 5,
-   "kit": false,
-   "origem": "maior_desconto",
-   "apelo": 0.23
-  },
-  {
-   "rank": 35,
-   "slug": "camiseta-basica-rl-branca",
-   "link": "https://www.outlet360.com.br/produto/camiseta-basica-rl-branca/",
-   "nome": "Camiseta Básica RL Branca",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/sgnihueg/e23586e9-9c9c-4e83-aae3-75c5778319f0.jpeg",
-   "de": 240.0,
-   "por": 149.0,
-   "desconto": 38,
-   "disponiveis": [
-    "XXXL",
-    "XXL",
-    "GG"
-   ],
-   "tamanhos": [
-    "XXXL",
-    "XXL",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP000000164",
-   "pix": 141.55,
-   "parcelas": [
-    12,
-    12.42
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Camiseta",
-   "modelo": "camiseta-basica-rl",
-   "n_tamanhos": 3,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.24
-  },
-  {
-   "rank": 36,
-   "slug": "camiseta-tommy-hilfiger-1985-azul-marinho",
-   "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-azul-marinho/",
-   "nome": "Camiseta Tommy Hilfiger 1985 Azul Marinho",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/xpfupepc/dff8f350-51f9-458d-9d63-c3fd35da6552.jpeg",
-   "de": 273.0,
-   "por": 149.0,
-   "desconto": 45,
-   "disponiveis": [
-    "M",
-    "g",
-    "P",
-    "XXL",
-    "GG"
-   ],
-   "tamanhos": [
-    "M",
-    "g",
-    "P",
-    "XXL",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "TOMH00000024",
-   "pix": 141.55,
-   "parcelas": [
-    12,
-    12.42
-   ],
-   "marca": "Tommy Hilfiger",
-   "categoria": "Camiseta",
-   "modelo": "camiseta-tommy-hilfiger-1985",
-   "n_tamanhos": 5,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.285
-  },
-  {
-   "rank": 16,
-   "slug": "camiseta-rl-polo-bear-fleece-preta",
-   "link": "https://www.outlet360.com.br/produto/camiseta-rl-polo-bear-fleece-preta/",
-   "nome": "Camiseta RL Polo Bear Fleece Preta",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/xzfdmrih/98c0be66-7794-4898-8345-a4899b7a4cbc.jpeg",
-   "de": 452.0,
-   "por": 149.0,
-   "desconto": 67,
-   "disponiveis": [
-    "M",
-    "G",
-    "GG"
-   ],
-   "tamanhos": [
-    "M",
-    "G",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP0000001255",
-   "pix": 141.55,
-   "parcelas": [
-    12,
-    12.42
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Camiseta",
-   "modelo": "camiseta-rl-polo-bear-fleece",
-   "n_tamanhos": 3,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.59
   }
  ],
  "reservas": [
   "camisa-polo-tommy-hilfiger-branca",
   "camisa-polo-tommy-hilfiger-vermelha",
-  "camisa-polo-tommy-hilfiger-azul-raf",
-  "camiseta-lacoste-algodao-pima-preta",
-  "camisa-tommy-hilfiger-oxford-regular-fit-branca",
   "camiseta-tommy-hilfiger-basica-branca",
-  "calca-sarja-tommy-hilfiger-marinho",
-  "camisa-polo-rl-verde-sage",
-  "camiseta-aramis-basica-marrom",
-  "camiseta-tommy-hilfiger-1985-cinza",
+  "camiseta-tommy-hilfiger-basica-verde-militar",
+  "camiseta-lacoste-algodao-pima-azul-marinho",
+  "camisa-acostamento-micro-xadrez-verde-escuro",
+  "camiseta-tommy-hilfiger-1985-verde-oliva",
   "camisa-aramis-linho-manga-curta-azul",
-  "calca-sarja-rl-azul-marinho",
-  "camisa-polo-rl-colored-verde-oliva",
-  "camisa-tommy-hilfiger-oxford-regular-azul-mescla"
+  "calca-sarja-rl-cinza",
+  "camiseta-aramis-basica-preta",
+  "camisa-tommy-hilfiger-oxford-regular-fit-branca",
+  "calca-sarja-tommy-hilfiger-areia",
+  "camisa-aramis-linho-manga-curta-branco",
+  "camisa-acostamento-tech-marinho",
+  "camiseta-tommy-hilfiger-1985-branca"
  ]
 }
