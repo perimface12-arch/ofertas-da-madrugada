@@ -432,7 +432,7 @@ function vitrine(){
    A seleção entra às 20h e fica no ar até as 20h do dia seguinte.
    Noite (20h–6h): o cupom vale e a contagem vai até as 6h ("o cupom acaba em").
    Dia (6h–20h): vitrine aberta sem cupom; a contagem vai até as 20h ("nova seleção em"). */
-const H_ABRE = D.abre_hora ?? 20, H_CUPOM = D.cupom_fim_hora ?? 6, P_QTD = (D.produtos || []).length || 20;
+const H_ABRE = D.abre_hora ?? 20, H_CUPOM = D.cupom_fim_hora, CUPOM_24H = H_CUPOM == null, P_QTD = (D.produtos || []).length || 20;   // cupom_fim_hora vazio = cupom vale o dia todo
 const TEM_PRODUTOS = (D.produtos || []).length > 0;
 const BRT = 3 * 3600e3;                                   // Brasília = UTC−3 (sem horário de verão)
 function horaBR(agora){ return new Date(agora - BRT).getUTCHours(); }
@@ -440,24 +440,24 @@ function proxHora(agora, h){                              // próximo instante e
   const d = new Date(agora - BRT); d.setUTCHours(h, 0, 0, 0);
   let t = d.getTime() + BRT; if (t <= agora) t += 864e5; return t;
 }
-function ehNoite(agora){ const h = horaBR(agora); return !!D.cupom && (h >= H_ABRE || h < H_CUPOM); }
+function ehNoite(agora){ const h = horaBR(agora); return !!D.cupom && (CUPOM_24H || h >= H_ABRE || h < H_CUPOM); }   // "noite" = cupom visível
 function estado(agora){
   if (!TEM_PRODUTOS) return {fase: "depois", noite: false, alvo: proxHora(agora, H_ABRE)};   // sem vitrine (falha do robô)
   const noite = ehNoite(agora);
-  return {fase: "aberta", noite, alvo: noite ? proxHora(agora, H_CUPOM) : proxHora(agora, H_ABRE)};
+  return {fase: "aberta", noite, alvo: noite && !CUPOM_24H ? proxHora(agora, H_CUPOM) : proxHora(agora, H_ABRE)};
 }
 const E0 = estado(Date.now()), FASE0 = E0.fase, NOITE0 = E0.noite, ALVO0 = E0.alvo;
 function tic(){
   const agora = Date.now(), e = estado(agora);
   // virou a fase: às 6h some o cupom; às 20h (+10 min, tempo do robô publicar) entra a seleção nova
-  if (agora > ALVO0 + (NOITE0 ? 0 : 10 * 60e3)) return location.reload();
+  if (agora > ALVO0 + (NOITE0 && !CUPOM_24H ? 0 : 10 * 60e3)) return location.reload();
   let resta = Math.max(0, e.alvo - agora);
   if (previa && e.fase === "aberta" && resta <= 0) resta = 0;
   const s = Math.floor(resta / 1000), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), ss = s % 60;
   for (const [a, v] of [["#hh", h], ["#mm", m], ["#ss", ss], ["#th", h], ["#tm", m], ["#ts", ss]]){ const el = $(a); if (el) el.textContent = pad(v); }
   const final = e.fase === "aberta" && resta <= 15 * 60 * 1000;
   $("#contagem").classList.toggle("final", final); $("#tb").classList.toggle("final", final);
-  $("#avisoFinal").textContent = !final ? "" : e.noite ? `Faltam poucos minutos para o ${D.cupom} acabar.` : "A seleção nova entra em poucos minutos.";
+  $("#avisoFinal").textContent = !final ? "" : CUPOM_24H ? "Faltam poucos minutos. Garanta a sua." : e.noite ? `Faltam poucos minutos para o ${D.cupom} acabar.` : "A seleção nova entra em poucos minutos.";
 }
 
 /* ---------- faixa de benefícios (no celular, uma por vez) ---------- */
@@ -483,7 +483,10 @@ if (FASE0 !== "aberta"){
 } else {
   vitrine();
   const desc = D.cupom_desconto ? `+${D.cupom_desconto}` : "desconto extra";
-  if (NOITE0){
+  if (NOITE0 && CUPOM_24H){
+    $("#rot").textContent = "As ofertas acabam em"; $("#rotulo").textContent = "As ofertas desta seleção acabam em";
+    $("#sub").innerHTML = `<span class="sub-d">${P_QTD} peças das marcas que você já usa, com <b>os melhores preços da semana</b>. Cupom <b>${esc(D.cupom)}</b>: ${esc(desc)} nas peças desta página.</span><span class="sub-m">${P_QTD} peças das marcas que você já usa.<br><b>${esc(desc)}</b> com o cupom ${esc(D.cupom)}.</span>`;
+  } else if (NOITE0){
     $("#rot").textContent = "O cupom acaba em"; $("#rotulo").textContent = `O cupom ${D.cupom} acaba em`;
     $("#sub").innerHTML = `<span class="sub-d">${P_QTD} peças das marcas que você já usa, com <b>os melhores preços da semana</b>. Cupom <b>${esc(D.cupom)}</b>: ${esc(desc)} até as ${H_CUPOM}h.</span><span class="sub-m">${P_QTD} peças das marcas que você já usa.<br><b>${esc(desc)}</b> com ${esc(D.cupom)} até as ${H_CUPOM}h.</span>`;
   } else {

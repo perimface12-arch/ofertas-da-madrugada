@@ -51,9 +51,9 @@ madrugada:
       utm_medium: whatsapp
       utm_campaign: ofertas_madrugada
   cupom: MADRUGADA10
-  cupom_fim_hora: 6
+  cupom_fim_hora:                # vazio = cupom vale o dia todo; um número (ex.: 6) = cupom só das 20h até essa hora
   cupom_desconto: 10% OFF
-  cupom_regra: Válido só para as peças desta página, até as 6h.
+  cupom_regra: Válido só para as peças desta página.
   utm_campaign: ofertas-da-madrugada
   gtm_id: GTM-N5L7P62B          # Tag Manager do gestor de tráfego (o GA4 está dentro dele)
   ga4_id: G-GTPTCQ8ER1          # só usado se não houver gtm_id
