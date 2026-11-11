@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T12:01",
+ "atualizado": "2026-11-11T14:59",
  "produtos": [
   {
    "rank": 14,
@@ -159,14 +159,12 @@
    "disponiveis": [
     "GG",
     "P",
-    "XXL",
-    "G"
+    "XXL"
    ],
    "tamanhos": [
     "GG",
     "P",
-    "XXL",
-    "G"
+    "XXL"
    ],
    "vendidos": 0,
    "codigo": "TOMH00000016",
@@ -178,7 +176,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-basica",
-   "n_tamanhos": 4,
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.4
@@ -344,14 +342,12 @@
     "P",
     "M",
     "G",
-    "GG",
     "XXL"
    ],
    "tamanhos": [
     "P",
     "M",
     "G",
-    "GG",
     "XXL"
    ],
    "vendidos": 0,
@@ -364,7 +360,7 @@
    "marca": "Ralph Lauren",
    "categoria": "Camiseta",
    "modelo": "camiseta-rl-pima-colored",
-   "n_tamanhos": 5,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "maior_desconto",
    "apelo": 1.255
