@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T23:07",
+ "atualizado": "2026-11-11T23:54",
  "produtos": [
   {
    "rank": 8,
@@ -26,7 +26,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH0000002",
-   "_lista": "v",
    "pix": 189.05,
    "parcelas": [
     12,
@@ -65,7 +64,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH0000006",
-   "_lista": "v",
    "pix": 189.05,
    "parcelas": [
     12,
@@ -104,7 +102,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000014",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -143,7 +140,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000213",
-   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
@@ -180,7 +176,6 @@
    ],
    "vendidos": 0,
    "codigo": "LAC00000026",
-   "_lista": "v",
    "pix": 217.55,
    "parcelas": [
     12,
@@ -219,7 +214,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000600",
-   "_lista": "d",
    "pix": 331.55,
    "parcelas": [
     12,
@@ -258,7 +252,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000051",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -295,7 +288,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000673",
-   "_lista": "d",
    "pix": 445.55,
    "parcelas": [
     12,
@@ -338,7 +330,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP000000549",
-   "_lista": "v",
    "pix": 227.05,
    "parcelas": [
     12,
@@ -377,7 +368,6 @@
    ],
    "vendidos": 0,
    "codigo": "ACOS000000798",
-   "_lista": "d",
    "pix": 436.05,
    "parcelas": [
     12,
@@ -414,7 +404,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM00000022",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -453,7 +442,6 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM000000589",
-   "_lista": "d",
    "pix": 436.05,
    "parcelas": [
     12,
@@ -492,7 +480,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000219",
-   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
@@ -531,7 +518,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP0000001164",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -572,7 +558,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000258",
-   "_lista": "d",
    "pix": 234.65,
    "parcelas": [
     12,
@@ -611,7 +596,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000024",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -635,14 +619,12 @@
    "por": 149.0,
    "desconto": 43,
    "disponiveis": [
-    "G",
     "GG",
     "M",
     "P",
     "XXL"
    ],
    "tamanhos": [
-    "G",
     "GG",
     "M",
     "P",
@@ -650,7 +632,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000093",
-   "_lista": "v",
    "pix": 141.55,
    "parcelas": [
     12,
@@ -659,7 +640,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-basica",
-   "n_tamanhos": 5,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.23
@@ -693,7 +674,6 @@
    ],
    "vendidos": 0,
    "codigo": "RALP00000061",
-   "_lista": "v",
    "pix": 227.05,
    "parcelas": [
     12,
@@ -730,7 +710,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000372",
-   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
@@ -769,7 +748,6 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000062",
-   "_lista": "v",
    "pix": 265.05,
    "parcelas": [
     12,
