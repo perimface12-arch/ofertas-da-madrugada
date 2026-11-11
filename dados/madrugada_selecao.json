@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T01:12",
+ "atualizado": "2026-11-11T02:05",
  "produtos": [
   {
    "rank": 16,
@@ -159,14 +159,12 @@
    "disponiveis": [
     "GG",
     "P",
-    "XXL",
-    "G"
+    "XXL"
    ],
    "tamanhos": [
     "GG",
     "P",
-    "XXL",
-    "G"
+    "XXL"
    ],
    "vendidos": 0,
    "codigo": "TOMH00000016",
@@ -178,7 +176,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-basica",
-   "n_tamanhos": 4,
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.4
