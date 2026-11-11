@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T14:59",
+ "atualizado": "2026-11-11T21:50",
  "produtos": [
   {
    "rank": 14,
@@ -46,16 +46,12 @@
    "desconto": 52,
    "disponiveis": [
     "P",
-    "M",
     "G",
-    "GG",
     "XXL"
    ],
    "tamanhos": [
     "P",
-    "M",
     "G",
-    "GG",
     "XXL"
    ],
    "vendidos": 0,
@@ -68,7 +64,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Polo",
    "modelo": "camisa-polo-tommy-hilfiger",
-   "n_tamanhos": 5,
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.515
@@ -123,13 +119,11 @@
    "disponiveis": [
     "G",
     "GG",
-    "P",
     "XXL"
    ],
    "tamanhos": [
     "G",
     "GG",
-    "P",
     "XXL"
    ],
    "vendidos": 0,
@@ -142,7 +136,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Polo",
    "modelo": "camisa-polo-tommy-hilfiger-raf",
-   "n_tamanhos": 4,
+   "n_tamanhos": 3,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.425
@@ -294,40 +288,6 @@
    "kit": false,
    "origem": "maior_desconto",
    "apelo": 1.185
-  },
-  {
-   "rank": 18,
-   "slug": "camisa-polo-rl-verde-sage",
-   "link": "https://www.outlet360.com.br/produto/camisa-polo-rl-verde-sage/",
-   "nome": "Camisa Polo RL Verde Sage",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ddkyfuvg/camisa-polo-ralph-lauren-verde-sage-1.jpg",
-   "de": 300.0,
-   "por": 179.0,
-   "desconto": 40,
-   "disponiveis": [
-    "XXL",
-    "P",
-    "M"
-   ],
-   "tamanhos": [
-    "XXL",
-    "P",
-    "M"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP00000055",
-   "pix": 170.05,
-   "parcelas": [
-    12,
-    14.92
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Polo",
-   "modelo": "camisa-polo-rl-sage",
-   "n_tamanhos": 3,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.3
   },
   {
    "rank": 46,
@@ -518,42 +478,6 @@
    "apelo": 1.16
   },
   {
-   "rank": 26,
-   "slug": "camisa-polo-rl-colored-verde-oliva",
-   "link": "https://www.outlet360.com.br/produto/camisa-polo-rl-colored-verde-oliva/",
-   "nome": "Camisa Polo RL Colored Verde Oliva",
-   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/wsvnvhox/d736abee-aa64-471c-ad5b-260e2d825454.jpeg",
-   "de": 300.0,
-   "por": 169.0,
-   "desconto": 44,
-   "disponiveis": [
-    "G",
-    "M",
-    "P",
-    "GG"
-   ],
-   "tamanhos": [
-    "G",
-    "M",
-    "P",
-    "GG"
-   ],
-   "vendidos": 0,
-   "codigo": "RALP000000280",
-   "pix": 160.55,
-   "parcelas": [
-    12,
-    14.08
-   ],
-   "marca": "Ralph Lauren",
-   "categoria": "Polo",
-   "modelo": "camisa-polo-rl-colored",
-   "n_tamanhos": 4,
-   "kit": false,
-   "origem": "mais_vendido",
-   "apelo": 1.27
-  },
-  {
    "rank": 43,
    "slug": "camiseta-aramis-basica-marrom",
    "link": "https://www.outlet360.com.br/produto/camiseta-aramis-basica-marrom/",
@@ -734,6 +658,78 @@
    "kit": false,
    "origem": "maior_desconto",
    "apelo": 0.24
+  },
+  {
+   "rank": 9999,
+   "slug": "camisa-acostamento-tech-marinho",
+   "link": "https://www.outlet360.com.br/produto/camisa-acostamento-tech-marinho/",
+   "nome": "Camisa Acostamento Tech Marinho",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ohmaekjd/3f3abecf-6809-46f7-8ea7-c783a212492e.jpeg",
+   "de": 480.0,
+   "por": 369.0,
+   "desconto": 23,
+   "disponiveis": [
+    "P",
+    "M",
+    "G",
+    "GG"
+   ],
+   "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "ACOS000000743",
+   "pix": 350.55,
+   "parcelas": [
+    12,
+    30.75
+   ],
+   "marca": "Acostamento",
+   "categoria": "Camisa",
+   "modelo": "camisa-acostamento-tech",
+   "n_tamanhos": 4,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 0.23
+  },
+  {
+   "rank": 9999,
+   "slug": "camisa-aramis-linho-manga-curta-branco",
+   "link": "https://www.outlet360.com.br/produto/camisa-aramis-linho-manga-curta-branco/",
+   "nome": "Camisa Aramis Linho Manga Curta Branco",
+   "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/fizgvbnx/39672ab1-8b76-4f47-a8f7-257559440bf0.jpeg",
+   "de": 612.0,
+   "por": 469.0,
+   "desconto": 23,
+   "disponiveis": [
+    "P",
+    "M",
+    "G",
+    "GG"
+   ],
+   "tamanhos": [
+    "P",
+    "M",
+    "G",
+    "GG"
+   ],
+   "vendidos": 0,
+   "codigo": "ARAM000000672",
+   "pix": 445.55,
+   "parcelas": [
+    12,
+    39.08
+   ],
+   "marca": "Aramis",
+   "categoria": "Camisa",
+   "modelo": "camisa-aramis-linho-manga-curta",
+   "n_tamanhos": 4,
+   "kit": false,
+   "origem": "maior_desconto",
+   "apelo": 0.23
   }
  ],
  "reservas": [
@@ -749,8 +745,6 @@
   "camiseta-aramis-basica-preta",
   "camisa-tommy-hilfiger-oxford-regular-fit-branca",
   "calca-sarja-tommy-hilfiger-areia",
-  "camisa-aramis-linho-manga-curta-branco",
-  "camisa-acostamento-tech-marinho",
   "camiseta-tommy-hilfiger-1985-branca"
  ]
 }
