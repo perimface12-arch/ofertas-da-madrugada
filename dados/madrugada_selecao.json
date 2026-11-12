@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T12:03",
+ "atualizado": "2026-11-12T15:01",
  "produtos": [
   {
    "rank": 10,
@@ -316,6 +316,7 @@
     "46",
     "44",
     "42",
+    "40",
     "38"
    ],
    "tamanhos": [
@@ -324,6 +325,7 @@
     "46",
     "44",
     "42",
+    "40",
     "38"
    ],
    "vendidos": 0,
@@ -336,7 +338,7 @@
    "marca": "Ralph Lauren",
    "categoria": "Calça",
    "modelo": "calca-sarja-slim-rl",
-   "n_tamanhos": 6,
+   "n_tamanhos": 7,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.23
