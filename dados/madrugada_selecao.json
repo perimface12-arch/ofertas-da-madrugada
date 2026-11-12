@@ -1,8 +1,8 @@
 {
- "atualizado": "2026-11-12T02:19",
+ "atualizado": "2026-11-12T05:02",
  "produtos": [
   {
-   "rank": 8,
+   "rank": 7,
    "slug": "camisa-polo-tommy-hilfiger-branca",
    "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-branca/",
    "nome": "Camisa Polo Tommy Hilfiger Branca",
@@ -40,7 +40,7 @@
    "apelo": 1.48
   },
   {
-   "rank": 11,
+   "rank": 12,
    "slug": "camisa-polo-tommy-hilfiger-vermelha",
    "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-vermelha/",
    "nome": "Camisa Polo Tommy Hilfiger Vermelha",
@@ -78,14 +78,14 @@
    "apelo": 1.465
   },
   {
-   "rank": 6,
+   "rank": 4,
    "slug": "camiseta-tommy-hilfiger-basica-branca",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-basica-branca/",
    "nome": "Camiseta Tommy Hilfiger Básica Branca",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/dlvucrcl/camiseta-tommy-hilfiger-basica-branca-01.jpg",
    "de": 260.0,
-   "por": 149.0,
-   "desconto": 43,
+   "por": 139.0,
+   "desconto": 47,
    "disponiveis": [
     "GG",
     "G",
@@ -102,10 +102,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000014",
-   "pix": 141.55,
+   "pix": 132.05,
    "parcelas": [
     12,
-    12.42
+    11.58
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
@@ -116,14 +116,14 @@
    "apelo": 1.4
   },
   {
-   "rank": 41,
+   "rank": 45,
    "slug": "camisa-tommy-hilfiger-oxford-regular-fit-branca",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-oxford-regular-fit-branca/",
    "nome": "Camisa Tommy Hilfiger Oxford Regular Fit Branca",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ksgubtbv/3d07a1f6-9aae-48dd-99a6-38cb429a21c9.jpeg",
    "de": 675.0,
-   "por": 279.0,
-   "desconto": 59,
+   "por": 249.0,
+   "desconto": 63,
    "disponiveis": [
     "XXL",
     "GG",
@@ -140,10 +140,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000213",
-   "pix": 265.05,
+   "pix": 236.55,
    "parcelas": [
     12,
-    23.25
+    20.75
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camisa",
@@ -154,14 +154,14 @@
    "apelo": 1.385
   },
   {
-   "rank": 12,
+   "rank": 9,
    "slug": "camiseta-lacoste-algodao-pima-azul-marinho",
    "link": "https://www.outlet360.com.br/produto/camiseta-lacoste-algodao-pima-azul-marinho/",
    "nome": "Camiseta Lacoste Pima Azul Marinho",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/gcmrlszz/camiseta-lacoste-pima-azul-marinho-1.jpg",
    "de": 399.0,
-   "por": 229.0,
-   "desconto": 43,
+   "por": 180.0,
+   "desconto": 55,
    "disponiveis": [
     "G",
     "GG",
@@ -176,10 +176,10 @@
    ],
    "vendidos": 0,
    "codigo": "LAC00000026",
-   "pix": 217.55,
+   "pix": 171.0,
    "parcelas": [
     12,
-    19.08
+    15.0
    ],
    "marca": "Lacoste",
    "categoria": "Camiseta",
@@ -228,7 +228,7 @@
    "apelo": 0.25
   },
   {
-   "rank": 25,
+   "rank": 23,
    "slug": "camiseta-tommy-hilfiger-1985-branca",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-branca/",
    "nome": "Camiseta Tommy Hilfiger 1985 Branca",
@@ -302,21 +302,20 @@
    "apelo": 0.23
   },
   {
-   "rank": 34,
+   "rank": 35,
    "slug": "calca-sarja-rl-cinza",
    "link": "https://www.outlet360.com.br/produto/calca-sarja-rl-cinza/",
    "nome": "Calça Sarja Slim RL Cinza",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/kanpixlo/calca-sarja-rl-cinza-1.jpg",
    "de": 400.0,
-   "por": 239.0,
-   "desconto": 40,
+   "por": 219.0,
+   "desconto": 45,
    "disponiveis": [
     "50",
     "48",
     "46",
     "44",
     "42",
-    "40",
     "38"
    ],
    "tamanhos": [
@@ -325,20 +324,19 @@
     "46",
     "44",
     "42",
-    "40",
     "38"
    ],
    "vendidos": 0,
    "codigo": "RALP000000549",
-   "pix": 227.05,
+   "pix": 208.05,
    "parcelas": [
     12,
-    19.92
+    18.25
    ],
    "marca": "Ralph Lauren",
    "categoria": "Calça",
    "modelo": "calca-sarja-slim-rl",
-   "n_tamanhos": 7,
+   "n_tamanhos": 6,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.23
@@ -388,8 +386,8 @@
    "nome": "Camiseta Aramis Básica Preta",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/ujqtzoxf/camiseta-aramis-basica-preta-1.jpg",
    "de": 189.0,
-   "por": 149.0,
-   "desconto": 21,
+   "por": 119.0,
+   "desconto": 37,
    "disponiveis": [
     "G",
     "GG",
@@ -404,10 +402,10 @@
    ],
    "vendidos": 0,
    "codigo": "ARAM00000022",
-   "pix": 141.55,
+   "pix": 113.05,
    "parcelas": [
-    12,
-    12.42
+    11,
+    10.82
    ],
    "marca": "Aramis",
    "categoria": "Camiseta",
@@ -456,14 +454,14 @@
    "apelo": 0.2
   },
   {
-   "rank": 49,
+   "rank": 56,
    "slug": "camisa-tommy-hilfiger-classic-regular-fit-preta",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-classic-regular-fit-preta/",
    "nome": "Camisa Tommy Hilfiger Classic Regular Fit Preta",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/jgnxkaqy/camisa-tommy-hilfiger-regular-fit-preta-1.jpg",
    "de": 626.0,
-   "por": 279.0,
-   "desconto": 55,
+   "por": 249.0,
+   "desconto": 60,
    "disponiveis": [
     "XXL",
     "GG",
@@ -480,10 +478,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000219",
-   "pix": 265.05,
+   "pix": 236.55,
    "parcelas": [
     12,
-    23.25
+    20.75
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camisa",
@@ -494,14 +492,14 @@
    "apelo": 1.305
   },
   {
-   "rank": 52,
+   "rank": 54,
    "slug": "camiseta-basica-rl-verde-bandeira",
    "link": "https://www.outlet360.com.br/produto/camiseta-basica-rl-verde-bandeira/",
    "nome": "Camiseta Básica RL Verde Bandeira",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/lpkcbozx/fb475788-b2d3-4b51-ab4c-211e379665ed.jpeg",
    "de": 240.0,
-   "por": 149.0,
-   "desconto": 38,
+   "por": 139.0,
+   "desconto": 42,
    "disponiveis": [
     "P",
     "M",
@@ -518,10 +516,10 @@
    ],
    "vendidos": 0,
    "codigo": "RALP0000001164",
-   "pix": 141.55,
+   "pix": 132.05,
    "parcelas": [
     12,
-    12.42
+    11.58
    ],
    "marca": "Ralph Lauren",
    "categoria": "Camiseta",
@@ -532,7 +530,7 @@
    "apelo": 1.12
   },
   {
-   "rank": 70,
+   "rank": 74,
    "slug": "calca-sarja-tommy-hilfiger-areia",
    "link": "https://www.outlet360.com.br/produto/calca-sarja-tommy-hilfiger-areia/",
    "nome": "Calça Sarja Tommy Hilfiger Areia",
@@ -572,7 +570,7 @@
    "apelo": 1.18
   },
   {
-   "rank": 28,
+   "rank": 33,
    "slug": "camiseta-tommy-hilfiger-1985-azul-marinho",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-azul-marinho/",
    "nome": "Camiseta Tommy Hilfiger 1985 Azul Marinho",
@@ -582,12 +580,14 @@
    "desconto": 45,
    "disponiveis": [
     "M",
+    "g",
     "P",
     "XXL",
     "GG"
    ],
    "tamanhos": [
     "M",
+    "g",
     "P",
     "XXL",
     "GG"
@@ -602,20 +602,20 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-1985",
-   "n_tamanhos": 4,
+   "n_tamanhos": 5,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.31
   },
   {
-   "rank": 40,
+   "rank": 46,
    "slug": "camiseta-tommy-hilfiger-basica-azul-claro",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-basica-azul-claro/",
    "nome": "Camiseta Tommy Hilfiger Básica Azul Claro",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/zkqxpcms/c8297ce3-7847-4757-bd6d-0f9f44232feb.jpeg",
    "de": 260.0,
-   "por": 149.0,
-   "desconto": 43,
+   "por": 139.0,
+   "desconto": 47,
    "disponiveis": [
     "GG",
     "M",
@@ -630,10 +630,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000093",
-   "pix": 141.55,
+   "pix": 132.05,
    "parcelas": [
     12,
-    12.42
+    11.58
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
@@ -644,14 +644,14 @@
    "apelo": 1.23
   },
   {
-   "rank": 45,
+   "rank": 39,
    "slug": "calca-sarja-rl-preta",
    "link": "https://www.outlet360.com.br/produto/calca-sarja-rl-preta/",
    "nome": "Calça Sarja Slim RL Preta",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/twzoioof/calca-sarja-rl-preta-1.jpg",
    "de": 400.0,
-   "por": 239.0,
-   "desconto": 40,
+   "por": 219.0,
+   "desconto": 45,
    "disponiveis": [
     "50",
     "38",
@@ -672,10 +672,10 @@
    ],
    "vendidos": 0,
    "codigo": "RALP00000061",
-   "pix": 227.05,
+   "pix": 208.05,
    "parcelas": [
     12,
-    19.92
+    18.25
    ],
    "marca": "Ralph Lauren",
    "categoria": "Calça",
@@ -686,14 +686,14 @@
    "apelo": 1.175
   },
   {
-   "rank": 48,
+   "rank": 52,
    "slug": "camisa-tommy-hilfiger-oxford-regular-fit-preta",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-oxford-regular-fit-preta/",
    "nome": "Camisa Tommy Hilfiger Oxford Regular Fit Preta",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/tuxhwdib/0e5b1db0-7bf4-4616-8236-72d29378ad42.jpeg",
    "de": 675.0,
-   "por": 279.0,
-   "desconto": 59,
+   "por": 249.0,
+   "desconto": 63,
    "disponiveis": [
     "G",
     "GG",
@@ -708,10 +708,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH000000372",
-   "pix": 265.05,
+   "pix": 236.55,
    "parcelas": [
     12,
-    23.25
+    20.75
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camisa",
@@ -722,14 +722,14 @@
    "apelo": 1.35
   },
   {
-   "rank": 51,
+   "rank": 53,
    "slug": "camisa-tommy-hilfiger-classic-regular-fit-azul-marinho",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-classic-regular-fit-azul-marinho/",
    "nome": "Camisa Tommy Hilfiger Classic Regular Fit Azul Marinho",
    "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/outlet360/media/uploads/produtos/foto/wdwjrxoy/5ae070d1-4304-4967-8e1f-0079c26884d0.jpeg",
    "de": 626.0,
-   "por": 279.0,
-   "desconto": 55,
+   "por": 249.0,
+   "desconto": 60,
    "disponiveis": [
     "XXL",
     "GG",
@@ -746,10 +746,10 @@
    ],
    "vendidos": 0,
    "codigo": "TOMH00000062",
-   "pix": 265.05,
+   "pix": 236.55,
    "parcelas": [
     12,
-    23.25
+    20.75
    ],
    "marca": "Tommy Hilfiger",
    "categoria": "Camisa",
