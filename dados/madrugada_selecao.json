@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T01:12",
+ "atualizado": "2026-11-12T02:19",
  "produtos": [
   {
    "rank": 8,
@@ -582,14 +582,12 @@
    "desconto": 45,
    "disponiveis": [
     "M",
-    "g",
     "P",
     "XXL",
     "GG"
    ],
    "tamanhos": [
     "M",
-    "g",
     "P",
     "XXL",
     "GG"
@@ -604,7 +602,7 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-1985",
-   "n_tamanhos": 5,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.31
