@@ -1,8 +1,8 @@
 {
- "atualizado": "2026-11-12T09:02",
+ "atualizado": "2026-11-12T12:03",
  "produtos": [
   {
-   "rank": 7,
+   "rank": 10,
    "slug": "camisa-polo-tommy-hilfiger-branca",
    "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-branca/",
    "nome": "Camisa Polo Tommy Hilfiger Branca",
@@ -40,7 +40,7 @@
    "apelo": 1.48
   },
   {
-   "rank": 12,
+   "rank": 11,
    "slug": "camisa-polo-tommy-hilfiger-vermelha",
    "link": "https://www.outlet360.com.br/produto/camisa-polo-tommy-hilfiger-vermelha/",
    "nome": "Camisa Polo Tommy Hilfiger Vermelha",
@@ -78,7 +78,7 @@
    "apelo": 1.465
   },
   {
-   "rank": 4,
+   "rank": 5,
    "slug": "camiseta-tommy-hilfiger-basica-branca",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-basica-branca/",
    "nome": "Camiseta Tommy Hilfiger Básica Branca",
@@ -116,7 +116,7 @@
    "apelo": 1.4
   },
   {
-   "rank": 45,
+   "rank": 48,
    "slug": "camisa-tommy-hilfiger-oxford-regular-fit-branca",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-oxford-regular-fit-branca/",
    "nome": "Camisa Tommy Hilfiger Oxford Regular Fit Branca",
@@ -380,7 +380,7 @@
    "apelo": 0.23
   },
   {
-   "rank": 38,
+   "rank": 43,
    "slug": "camiseta-aramis-basica-preta",
    "link": "https://www.outlet360.com.br/produto/camiseta-aramis-basica-preta/",
    "nome": "Camiseta Aramis Básica Preta",
@@ -492,7 +492,7 @@
    "apelo": 1.305
   },
   {
-   "rank": 54,
+   "rank": 57,
    "slug": "camiseta-basica-rl-verde-bandeira",
    "link": "https://www.outlet360.com.br/produto/camiseta-basica-rl-verde-bandeira/",
    "nome": "Camiseta Básica RL Verde Bandeira",
@@ -530,7 +530,7 @@
    "apelo": 1.12
   },
   {
-   "rank": 74,
+   "rank": 70,
    "slug": "calca-sarja-tommy-hilfiger-areia",
    "link": "https://www.outlet360.com.br/produto/calca-sarja-tommy-hilfiger-areia/",
    "nome": "Calça Sarja Tommy Hilfiger Areia",
@@ -570,7 +570,7 @@
    "apelo": 1.18
   },
   {
-   "rank": 33,
+   "rank": 31,
    "slug": "camiseta-tommy-hilfiger-1985-azul-marinho",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-1985-azul-marinho/",
    "nome": "Camiseta Tommy Hilfiger 1985 Azul Marinho",
@@ -580,14 +580,12 @@
    "desconto": 45,
    "disponiveis": [
     "M",
-    "g",
     "P",
     "XXL",
     "GG"
    ],
    "tamanhos": [
     "M",
-    "g",
     "P",
     "XXL",
     "GG"
@@ -602,13 +600,13 @@
    "marca": "Tommy Hilfiger",
    "categoria": "Camiseta",
    "modelo": "camiseta-tommy-hilfiger-1985",
-   "n_tamanhos": 5,
+   "n_tamanhos": 4,
    "kit": false,
    "origem": "mais_vendido",
    "apelo": 1.31
   },
   {
-   "rank": 46,
+   "rank": 37,
    "slug": "camiseta-tommy-hilfiger-basica-azul-claro",
    "link": "https://www.outlet360.com.br/produto/camiseta-tommy-hilfiger-basica-azul-claro/",
    "nome": "Camiseta Tommy Hilfiger Básica Azul Claro",
@@ -644,7 +642,7 @@
    "apelo": 1.23
   },
   {
-   "rank": 39,
+   "rank": 42,
    "slug": "calca-sarja-rl-preta",
    "link": "https://www.outlet360.com.br/produto/calca-sarja-rl-preta/",
    "nome": "Calça Sarja Slim RL Preta",
@@ -686,7 +684,7 @@
    "apelo": 1.175
   },
   {
-   "rank": 52,
+   "rank": 49,
    "slug": "camisa-tommy-hilfiger-oxford-regular-fit-preta",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-oxford-regular-fit-preta/",
    "nome": "Camisa Tommy Hilfiger Oxford Regular Fit Preta",
@@ -722,7 +720,7 @@
    "apelo": 1.35
   },
   {
-   "rank": 53,
+   "rank": 55,
    "slug": "camisa-tommy-hilfiger-classic-regular-fit-azul-marinho",
    "link": "https://www.outlet360.com.br/produto/camisa-tommy-hilfiger-classic-regular-fit-azul-marinho/",
    "nome": "Camisa Tommy Hilfiger Classic Regular Fit Azul Marinho",
