@@ -33,8 +33,16 @@ def tiny(metodo, pausa=1.1, **params):
         if "limite" in erros.lower() or ret.get("codigo_erro") in ("6", 6):
             time.sleep(60)  # API bloqueada por excesso de chamadas: espera e tenta de novo
             continue
+        if ret.get("codigo_erro") not in ("20", 20) and _erros_logados[0] < 5:  # 20 = nenhum registro encontrado
+            _erros_logados[0] += 1
+            print(f"⚠️ Tiny {metodo}: status={ret.get('status')} código={ret.get('codigo_erro')} erros={ret.get('erros')} "
+                  f"(HTTP {r.status_code})", flush=True)
         return ret  # erro "de verdade" (ex.: nenhum registro encontrado)
+    print(f"⚠️ Tiny {metodo}: sem resposta válida após 6 tentativas", flush=True)
     return {}
+
+
+_erros_logados = [0]
 
 
 def pai(codigo):

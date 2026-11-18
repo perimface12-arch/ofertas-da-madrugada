@@ -453,6 +453,11 @@ def main():
         resto = [p for p in produtos if p["slug"] not in escolhidos]
         reservas_novas = [p["slug"] for p in selecionar(resto, cfg, hist)][:QTD_RESERVAS] if resto else []
 
+    if not selecao and not a.demo:
+        # nunca troca uma vitrine cheia por uma vazia (ex.: Tiny fora do ar ou token inválido)
+        raise SystemExit("❌ Seleção saiu VAZIA (0 produtos conferidos). Página e seleção anteriores mantidas. "
+                         "Veja os avisos do Tiny acima.")
+
     v = sum(1 for p in selecao if p["origem"] == "mais_vendido")
     print(f"Vitrine: {len(selecao)} produtos ({v} mais vendidos · {len(selecao) - v} maior desconto)")
     for i, p in enumerate(selecao, 1):
